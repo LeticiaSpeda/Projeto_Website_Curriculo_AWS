@@ -1,1 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Bayon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    background-size: contain;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(180deg, #000 46.88%, #0E694D 100%);
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 72px;
+    padding-left: 31px;
+    padding-bottom: px;
+    background: #201E25;
+}
+
+.cabecalho-titulo {
+    font-family: 'Bayon', sans-serif;
+    color: #1DDBA2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-home {
+    font-family: Barlow Condensed;
+    font-weight: 500;
+    color: #1DDBA2;
+    font-size: 26px;
+    text-align: center;
+}
+
+.cabecalho-menu-curriculos{
+    font-family: Barlow Condensed;
+    font-weight: 500;
+    color: #1DDBA2;
+    font-size: 26px;
+    text-align: center;
+}
+
+.cabecalho-menu-agradecimento{
+    font-family: Barlow Condensed;
+    font-weight: 500;
+    color: #1DDBA2;
+    font-size: 26px;
+    text-align: center;
+}
+
+.centralizador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.conteudo-logo{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.conteudo-title-principal{
+    font-size: 40px;
+    font-family: Bayon;
+    color: #1DDBA2;
+}
