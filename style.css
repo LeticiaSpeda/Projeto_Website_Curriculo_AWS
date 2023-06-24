@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -17,16 +19,21 @@ html {
     color: white;
 }
 
+header {
+    background: #201E25;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
-    padding-right: 72px;
-    padding-left: 31px;
-    padding-bottom: px;
-    background: #201E25;
+    /* padding: 5px; */
+    /* padding-right: 72px;
+    padding-left: 31px; */
+    /* padding-bottom: px; */
+    max-width: 1280px;
+    margin: auto;
 }
 
 .cabecalho-titulo {
@@ -42,26 +49,26 @@ html {
 }
 
 .cabecalho-menu-home {
-    font-family: Barlow Condensed;
+    /* font-family: Barlow Condensed; */
     font-weight: 500;
     color: #1DDBA2;
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
 }
 
 .cabecalho-menu-curriculos{
-    font-family: Barlow Condensed;
+    /* font-family: Barlow Condensed; */
     font-weight: 500;
-    color: #1DDBA2;
-    font-size: 26px;
+    color: #128a66;
+    font-size: 18px;
     text-align: center;
 }
 
 .cabecalho-menu-agradecimento{
-    font-family: Barlow Condensed;
+    /* font-family: Barlow Condensed; */
     font-weight: 500;
-    color: #1DDBA2;
-    font-size: 26px;
+    color: #128a66;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -72,6 +79,17 @@ html {
     width: 100%;
 }
 
+.conteudo {
+    margin: auto;
+    max-width: 1080px;
+    display: block;
+}
+
+.conteudo-principal {
+    display: grid;
+    gap: 20px;
+}
+
 .conteudo-logo{
     padding-top: 50px;
     padding-bottom: 10px;
@@ -79,6 +97,14 @@ html {
 
 .conteudo-title-principal{
     font-size: 40px;
-    font-family: Bayon;
+    /* font-family: Bayon; */
     color: #1DDBA2;
+}
+
+.conteudo-mensagem-boasVindas{
+    font-size: 26px;
+    color: #FFF;
+    text-align: center;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
 }
