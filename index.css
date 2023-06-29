@@ -74,7 +74,7 @@ header {
 
 .conteudo {
     margin: auto;
-    max-width: 1080px;
+    max-width: 1280px;
     display: block;
 }
 
@@ -96,6 +96,6 @@ header {
 .conteudo-mensagem-boasVindas{
     font-size: 26px;
     color: #FFF;
-    text-align: center;
+    text-align: justify;
     
 }

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Bayon&display=swap');
+
+:root {
+    --background-dark-color: rgb(15, 15, 15);
+    --background-light-color: rgb(28, 27, 27);
+    --primary-color: rgb(35, 150, 127);
+    --white-color: #fff
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    height: 100%;
+    background-size: contain;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(180deg, #000 46.88%, #0E694D 100%);
+    color: white;
+}
+
+header {
+    background: #201E25;
+}
+
+.conteudo {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.centralized {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-spaced {
+    margin-top: 20px;
+  }
+
+  .bordered {
+    border: 5px solid var(--primary-color);
+  }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.cabecalho-titulo {
+    font-family: 'Bayon', sans-serif;
+    color: #1DDBA2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cabecalho-menu-abas {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-home {
+    font-weight: 500;
+    color: #128a66;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cabecalho-menu-curriculos{
+    font-weight: 500;
+    color: #1DDBA2;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cabecalho-menu-agradecimento{
+    font-weight: 500;
+    color: #128a66;
+    font-size: 18px;
+    text-align: center;
+}
+
+.conteudo {
+    margin: auto;
+    max-width: 1280px;
+    display: block;
+}
+
+.conteudo-principal {
+    display: grid;
+    gap: 20px;
+}
+
+.conteudo-title-principal {
+    font-size: 30px;
+    color: #1DDBA2;
+    text-align: center;
+}
+
+.conteudo li {
+    padding: 10px;
+}
+
+.card-container {
+    background-color: var(--background-light-color);
+    max-width: 340px;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 5px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+.imagem-pessoal {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.nome {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: clip;
+    display: -webkit-box;
+    line-height: 16px; 
+    max-height: 170px;  
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    word-spacing: -1px;
+}
+
+.social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-medias img {
+    height: 36px;
+    width: 36px;
+  }
+
+.github-logo {
+    border-radius: 8px;
+}
+
+/* .dots {
+    color: var(--primary-color);
+    font-size: 18px;
+} */
