@@ -117,6 +117,6 @@ header {
     color: #FFF;
     text-align: justify;
     word-spacing: -1.2px;
-    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: #000;
 }

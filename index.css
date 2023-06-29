@@ -99,4 +99,6 @@ header {
     font-size: 26px;
     color: #FFF;
     text-align: justify;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000;
 }
